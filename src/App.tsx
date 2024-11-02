@@ -74,7 +74,7 @@ function App() {
       issueNumber: 92,
       category: "Frontend",
       techStack: "JavaScript",
-      status: "Resolved",
+      status: "In Progress",
       githubUrl: "https://github.com/devlup-labs/meet-scheduler/issues/92"
     },
     {
@@ -94,7 +94,7 @@ function App() {
       issueNumber: 51,
       category: "Frontend",
       techStack: "Flutter, Firebase",
-      status: "In Progress",
+      status: "Open",
       githubUrl: "https://github.com/devlup-labs/travel_companion/issues/51"
     }
   ];
