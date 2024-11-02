@@ -6,7 +6,7 @@ Web application built by [DevlUp Labs](https://github.com/devlup-labs/)  to expl
 
 ## Features
 
-- 🔍 Filter issues by Tech Stack and category
+- 🔍 Filter issues by Tech Stack
 - 📊 Status tracking with intuitive icons
 - 🔗 Direct links to GitHub issues
 - 🎨 Modern, dark-themed UI
