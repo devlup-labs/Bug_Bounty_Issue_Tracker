@@ -1,6 +1,6 @@
 # Bug Bounty Issues Tracker
 
-Web application built by DevlUp Labs to explore and track GitHub issues for bug bounty Event. This application provides an intuitive interface to view, filter, and manage GitHub issues across different repositories.
+Web application built by [DevlUp Labs](https://github.com/devlup-labs/)  to explore and track GitHub issues for Bug Bounty Event. This application provides an intuitive interface to view, filter, and manage GitHub issues across different repositories.
 
 ![Bug Bounty Issues Tracker](https://res.cloudinary.com/dc6hyuhc9/image/upload/v1730549557/Screenshot_2024-11-02_174141_lw5qta.png)
 
@@ -55,4 +55,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Created By
 
-DevlUp Labs - Empowering developers through open source
+[DevlUp Labs](https://github.com/devlup-labs/) - Empowering developers through open source
