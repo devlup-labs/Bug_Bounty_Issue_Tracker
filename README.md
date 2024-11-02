@@ -17,7 +17,7 @@ Web application built by [DevlUp Labs](https://github.com/devlup-labs/)  to expl
 
 1. Clone the repository:
 ```bash
-
+git clone https://github.com/devlup-labs/Bug_Bounty_Issue_Tracker.git
 ```
 
 2. Install dependencies:
