@@ -10,6 +10,7 @@ Web application built by [DevlUp Labs](https://github.com/devlup-labs/)  to expl
 - 📊 Status tracking with intuitive icons
 - 🔗 Direct links to GitHub issues
 - 🎨 Modern, dark-themed UI
+- 📱 Fully responsive design
 
 ## Getting Started
 
