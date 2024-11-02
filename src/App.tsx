@@ -52,7 +52,7 @@ function App() {
                     issueNumber: row.c[2]?.v || 0,
                     ProjectLink: row.c[2]?.v || 'No ProjectLink',
                     techStack: row.c[5]?.v || 'No tech stack',
-                    status: 'Open',
+                    status: row.c[3]?.v || 'Open',
                     githubUrl: row.c[6]?.v || '#',
                 };
             });
