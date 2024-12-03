@@ -41,19 +41,18 @@ function App() {
     useEffect(() => {
         const fetchIssues = async () => {
             const response = await fetch(googleSheetsUrl);
-            const data = await response.text();
-            const json = JSON.parse(data.substring(47).slice(0, -2)); // Extract JSON data from the response
-            const rows = json.table.rows;
+            const data = await response.json();
+            const rows = data.values.slice(4); // Skip first 4 rows
 
             const fetchedIssues: Issue[] = rows.map((row: any, index: number) => {
                 return {
                     id: index + 1,
-                    title: row.c[7]?.v || 'No title',
-                    issueNumber: row.c[2]?.v || 0,
-                    ProjectLink: row.c[2]?.v || 'No ProjectLink',
-                    techStack: row.c[5]?.v || 'No tech stack',
-                    status: row.c[3]?.v || 'Open',
-                    githubUrl: row.c[6]?.v || '#',
+                    title: row[7] || 'No title',
+                    issueNumber: row[2] || 0,
+                    ProjectLink: row[2] || 'No ProjectLink',
+                    techStack: row[5] || 'No tech stack',
+                    status: row[3] || 'Open',
+                    githubUrl: row[6] || '#',
                 };
             });
 
